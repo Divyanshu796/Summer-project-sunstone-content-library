@@ -1,0 +1,36 @@
+
+    body {
+        font-family: Arial, sans-serif;
+    }
+    header {
+        background:orange;
+        color: white;
+        padding: 10px 0;
+        text-align: center;
+    }
+    nav ul {
+        list-style: none;
+        padding: 0;
+    }
+    nav ul li {
+        display: inline;
+        margin: 0 10px;
+    }
+    nav ul li a {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+    }
+    section {
+        background: #00ff7786;
+        color: rgb(0, 0, 0);
+        padding: 10px 0;
+        text-align: center;
+        padding: 20px;
+        margin: 20px 0;
+    }
+    footer {
+        background:orange;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+    }

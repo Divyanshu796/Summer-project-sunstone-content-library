@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Knowledge</h1>
+        <h3>An eBook Store!!!</h3>
+        <nav>
+            <ul>
+                <li><a href="#products">Products</a></li>
+                <li><a href="books.html">Books</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="Login.html">Sign In & Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Products Section -->
+        <section id="products">
+            <h2>Our Products</h2>
+            <article class="product-item">
+                <h3>Demystifying Internet of Things Security</h3>
+                <img src="book2.jpg" alt="Product 1" width="200">
+                <p>This open access book reviews the threat pyramid, secure boot, chain of trust, and the SW stack leading up to defense-in-depth.</p>
+                <p>Price: $100</p>
+            </article>
+            <article class="product-item">
+                <h3>Introduction to Modern Algebra</h3>
+                <img src="algebra.jpg" alt="Product 1" width="200">
+                <p>A textbook for Math 225 Modern Algebra Course in Department of Mathematics and Computer Science at Clark University..</p>
+                <p>Price: $100</p>
+            </article>
+            <article class="product-item">
+                <h3>Discrete Mathematics</h3>
+                <img src="Book3.jpg" alt="Product 2" width="200">
+                <p>Discrete Mathematics: An Open Introduction is a free, open source textbook appropriate for a first or second year undergraduate course for math majors, especially those who will go on to teach.</p>
+                <p>Price: $200</p>
+            </article>
+            <!-- Add more products as needed -->
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about">
+            <h2>About Us</h2>
+            <h3>Our Story</h3>
+            <p>Welcome to KnowleJ, your haven for book lovers! We're a team of passionate readers and learners dedicated to providing a vast collection of books for our community. Our mission is to foster a love for reading and make knowledge accessible to everyone. <br> <br>Our journey began in 2023 with a small collection of books and a big dream. Over the years, we've grown to become a thriving book library, thanks to the contributions of our members, volunteers, and staff. Today, we're proud to offer a vast collection of titles, regular events, and a welcoming space for readers of all ages.</p>
+            <h3>Our Vision</h3>
+            <p>KnowleJ was founded by Harsh Vardhan, a book lover and educator who envisioned a space where people could come together to share their passion for reading. With a humble beginning in 2024, our library has grown to become a beloved institution in the community, thanks to the support of our patrons and the dedication of our team.</p>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Your Company Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
